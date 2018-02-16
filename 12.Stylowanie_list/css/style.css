@@ -1,0 +1,35 @@
+.squareList{list-style-type:square;}
+.menuList{text-transform: uppercase;
+color:#116493;
+line-height:1.5em;
+list-style: none;
+margin:0;
+padding:0;
+
+
+text-align:center;
+}
+
+.start
+{
+float:left;
+    padding:14px 16px;
+}
+.onas
+{float:left;
+    padding:14px 16px;
+}
+
+.galeria
+{ float:left;
+    padding:14px 16px;
+}
+
+.kontakt
+{float:left;
+    padding:14px 16px;
+}
+
+p
+{
+    clear:both;}

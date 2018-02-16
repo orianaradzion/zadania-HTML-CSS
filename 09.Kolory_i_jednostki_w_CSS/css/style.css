@@ -1,0 +1,12 @@
+.red {color:red;}
+.green{color:green;}
+.blue{color:blue;}
+#Ania{background-color: #ff00ff;}
+#Basia{background-color: rgb(255,255,200);}
+#Kasia{background-color: hsl(120,25%,60%);}
+.container{background-color: antiquewhite;
+width:200px;}
+.la{background-color: cyan;
+width:50%;}
+.ru{background-color: cornflowerblue;
+width:10em;}

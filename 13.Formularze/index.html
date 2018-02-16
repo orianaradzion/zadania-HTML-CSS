@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML/CSS- formularze</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<div id="contactForm">
+
+<form >
+<legend> Your name</legend>
+
+    <input type="text" name="Your name : " placeholder="Your name:">
+</form>
+    <form>
+
+<legend> Your E-mail Address</legend>
+    <input type="text" name="Your E-mail Address: " placeholder="Your email adress:">
+
+</form>
+
+  <form>
+
+        <legend> Text message</legend>
+        <label>
+
+            <textarea cols="70" rows="30" placeholder="Please type your message or question :">
+</textarea>
+
+        </label>
+        <input type = "submit" value=" Send" >
+  </form>
+    <div class="rentcarForm">
+
+
+
+
+<h1> Car rental</h1>
+
+<fieldset>
+    <legend> Choose car class</legend>
+
+    <label> mini <input type="radio" name="model"> </label><br>
+    <label> economy  <input type="radio" name="model"> </label><br>
+    <label>compact <input type="radio" name="model"></label><br>
+    <label>SUV <input type="radio" name="model"></label><br>
+    <label>VAN<input type="radio" name="model"></label><br>
+
+</fieldset>
+
+<fieldset>
+    <legend> Choose optional equipment</legend>
+    <label> Child seat<input type="checkbox" name="extras"></label><br>
+    <label>GPS  <input type="checkbox" name="extras" checked></label><br>
+   <label> DVD player <input type="checkbox" name="extras"></label><br>
+
+</fieldset>
+<label>
+    Rental start date
+    <input type="date" palceholder=" rrrr=mm-dd">
+
+</label>
+<label>
+    Numbers of days
+    <input type="number" >
+</label>
+<label>
+    Your password
+    <input type="password" name="password" >
+</label>
+<input type="submit" value="order now!">
+    </div>
+</body>
+</html>
